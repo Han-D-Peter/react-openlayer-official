@@ -43,7 +43,7 @@
   "engines": {
     "node": ">=16.14"
   },
-  "packageManager": "yarn@3.5.1",
+  "packageManager": "yarn@3.3.1",
   "installConfig": {
     "pnp": true
   }
