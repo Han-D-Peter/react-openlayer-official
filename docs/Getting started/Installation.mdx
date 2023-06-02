@@ -1,0 +1,83 @@
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
+# Installation
+
+## React prerequisites
+
+---
+
+react-openlayers7은 react18 버전 이상을 사용하고 있으며, style은 @emotion/react을 사용하고 있습니다. 이 두가지는 peerDependencies로 요구됩니다.
+
+## Openlayers prerequisites
+
+---
+
+react-openlayers7은 7.3 버전의 openlayers 라이브러리로 만들어졌습니다.
+
+## Adding React-openlayers7
+
+---
+
+### Using a package registry
+
+npm 을 사용해 react-openlayers7와 peerDependencies로 요구되는 종속성을 설치할 수 있습니다.
+
+React, React DOM, @emotion/react, @emotion/styled 는 peerDependencies 입니다. 설치되지 않은 경우 프로젝트에 추가해야 합니다.
+
+<Tabs>
+<TabItem value="npm" label="npm">
+
+```bash
+npm install react react-dom @emotion/react @emotion/styled react-openlayers7
+```
+
+</TabItem>
+<TabItem value="yarn" label="yarn">
+
+```bash
+yarn add react react-dom @emotion/react @emotion/styled react-openlayers7
+```
+
+</TabItem>
+
+</Tabs>
+
+<Tabs>
+<TabItem value="npm" label="npm">
+
+```bash
+npm install react-openlayers7
+```
+
+</TabItem>
+<TabItem value="yarn" label="yarn">
+
+```bash
+yarn add react-openlayers7
+```
+
+</TabItem>
+
+</Tabs>
+
+`peerDependencies`가 이미 설치된 경우 위 명령어를 통해 `react-openlayers7`을 설치할 수 있습니다.
+
+```javascript
+import { Map } from "react-openlayers7";
+import { TileLayer } from "react-openlayers7/dist/Map/layer/tileLayer";
+```
+
+각 컴포넌트를 정확한 위치로부터 불러올 수 있고
+
+```javascript
+import { Map, TileLayer } from "react-openlayers7";
+```
+
+entry 포인트에서 한번에 불어올 수 있습니다.
+
+## TypeScript Support
+
+---
+
+`openlayers`는 자체적인 타입을 정의하고 있습니다. `react-openlayers7` 또한 타입스크립트 기반으로 작성된 라이브러리입니다.
