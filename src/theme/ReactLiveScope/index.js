@@ -1,13 +1,77 @@
 import React from 'react';
-import { TileLayer, Map, LayerGroup,CustomMarker,InnerText,CustomPolygon } from "react-openlayers7";
+import { TileLayer, 
+  Map,
+  GeoJsonLayer,
+  InnerText,
+  CustomMarker,
+  CustomPolygon,
+  CustomCircle,
+  CustomMultiPoint,
+  CustomRectangle,
+  ControlSection,
+  TextMarker,
+  LayerGroup,
+  MultiPointDrawButton,
+  PointDrawButton,
+  PolygonDrawButton,
+  PolylineDrawButton,
+  RectangleDrawButton,
+  TextDrawButton,
+  DeleteAnnotation,
+  ModifyAnnotation,
+  MoveAnnotation,
+  Button,
+  CompassWheel,
+  DrawingTools,
+  FullScreenFeature,
+  ZoomFeature,
+  useMap,
+  useMapEventHandler,
+  useMapRotation,
+  useSelectAnnotation,
+  getProfileFromFeature,
+  icon
+ } from "react-openlayers7";
 // Add react-live imports you need here
+
+
+
 const ReactLiveScope = {
   React,
   ...React,
   TileLayer, 
-  Map, 
+  Map,
+  GeoJsonLayer,
   LayerGroup,
+  InnerText,
   CustomMarker,
-  InnerText,CustomPolygon
+  CustomPolygon,
+  CustomCircle,
+  CustomMultiPoint,
+  CustomRectangle,
+  ControlSection,
+  TextMarker,
+  MultiPointDrawButton,
+  PointDrawButton,
+  PolygonDrawButton,
+  PolylineDrawButton,
+  RectangleDrawButton,
+  TextDrawButton,
+  DeleteAnnotation,
+  ModifyAnnotation,
+  MoveAnnotation,
+  Button,
+  CompassWheel,
+  DrawingTools,
+  FullScreenFeature,
+  ZoomFeature,
+  useMap,
+  useMapEventHandler,
+  useMapRotation,
+  useSelectAnnotation,
+  getProfileFromFeature,
+  icon
 };
+
+ReactLiveScope.icon.marker = '/img/marker-icon.png'
 export default ReactLiveScope;

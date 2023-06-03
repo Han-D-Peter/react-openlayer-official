@@ -1,0 +1,32 @@
+---
+sidebar_position: 1
+---
+
+import "react-openlayers7/dist/index.css";
+
+# Text with Marker
+
+```jsx live
+<div>
+  <Map center={[126.840884, 35.190816]} width="100%" height="500px">
+    <CustomMarker center={[126.840884, 35.190816]}></CustomMarker>
+    <ControlSection>
+      <ZoomFeature />
+    </ControlSection>
+  </Map>
+</div>
+```
+
+A new page is now available at [http://localhost:3000/my-react-page](http://localhost:3000/my-react-page).
+
+## Create your first Markdown Page
+
+Create a file at `src/pages/my-markdown-page.md`:
+
+```mdx title="src/pages/my-markdown-page.md"
+# My Markdown page
+
+This is a Markdown page
+```
+
+A new page is now available at [http://localhost:3000/my-markdown-page](http://localhost:3000/my-markdown-page).
