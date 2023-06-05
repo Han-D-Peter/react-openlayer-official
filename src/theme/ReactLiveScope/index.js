@@ -36,6 +36,8 @@ import { TileLayer,
 
 
 
+
+
 const ReactLiveScope = {
   React,
   ...React,
@@ -70,7 +72,7 @@ const ReactLiveScope = {
   useMapRotation,
   useSelectAnnotation,
   getProfileFromFeature,
-  icon
+  icon,
 };
 
 ReactLiveScope.icon.marker = '/img/marker-icon.png'

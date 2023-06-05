@@ -6,27 +6,39 @@ import "react-openlayers7/dist/index.css";
 
 # Text with Marker
 
+## How to use
+
 ```jsx live
 <div>
   <Map center={[126.840884, 35.190816]} width="100%" height="500px">
-    <CustomMarker center={[126.840884, 35.190816]}></CustomMarker>
-    <ControlSection>
-      <ZoomFeature />
-    </ControlSection>
+    <CustomMarker center={[126.840884, 35.190816]}>
+      <InnerText>Marker</InnerText>
+    </CustomMarker>
   </Map>
 </div>
 ```
 
-A new page is now available at [http://localhost:3000/my-react-page](http://localhost:3000/my-react-page).
+`icon.png`를 사용한 마커입니다. `Map` 컴포넌트 하위에 사용하여 지도위에 표시할 수 있습니다.<br/>
+`InnerText` 컴포넌트를 자식으로 넣어 텍스트를 표시할 수 있습니다(Marker 들은 자식으로 `InnerText` 컴포넌트 한개만을 받을 수 있습니다.)
 
-## Create your first Markdown Page
+## Tooltip Effect
 
-Create a file at `src/pages/my-markdown-page.md`:
+```jsx live
+function TooltipMarker() {
+  const [isHovering, setIsHovering] = React.useState(false);
 
-```mdx title="src/pages/my-markdown-page.md"
-# My Markdown page
+  const onHover = () => {
+    setIsHovering(true);
+  };
 
-This is a Markdown page
+  return (
+    <CustomMarker onHover={onHover} center={[126.840884, 35.190816]}>
+      {isHovering && <InnerText>Marker</InnerText>}
+    </CustomMarker>
+  );
+}
+
+<Map center={[126.840884, 35.190816]} width="100%" height="500px">
+  <TooltipMarker />
+</Map>;
 ```
-
-A new page is now available at [http://localhost:3000/my-markdown-page](http://localhost:3000/my-markdown-page).
