@@ -2,8 +2,6 @@
 sidebar_position: 1
 ---
 
-import "react-openlayers7/dist/index.css";
-
 # Text with Marker
 
 ## How to use
@@ -20,25 +18,3 @@ import "react-openlayers7/dist/index.css";
 
 `icon.png`를 사용한 마커입니다. `Map` 컴포넌트 하위에 사용하여 지도위에 표시할 수 있습니다.<br/>
 `InnerText` 컴포넌트를 자식으로 넣어 텍스트를 표시할 수 있습니다(Marker 들은 자식으로 `InnerText` 컴포넌트 한개만을 받을 수 있습니다.)
-
-## Tooltip Effect
-
-```jsx live
-function TooltipMarker() {
-  const [isHovering, setIsHovering] = React.useState(false);
-
-  const onHover = () => {
-    setIsHovering(true);
-  };
-
-  return (
-    <CustomMarker onHover={onHover} center={[126.840884, 35.190816]}>
-      {isHovering && <InnerText>Marker</InnerText>}
-    </CustomMarker>
-  );
-}
-
-<Map center={[126.840884, 35.190816]} width="100%" height="500px">
-  <TooltipMarker />
-</Map>;
-```
