@@ -13818,14 +13818,14 @@ __metadata:
     prism-react-renderer: ^1.3.5
     react: ^17.0.2
     react-dom: ^17.0.2
-    react-openlayers7: ^0.1.13
+    react-openlayers7: ^0.1.14
     typescript: ^4.7.4
   languageName: unknown
   linkType: soft
 
-"react-openlayers7@npm:^0.1.13":
-  version: 0.1.13
-  resolution: "react-openlayers7@npm:0.1.13"
+"react-openlayers7@npm:^0.1.14":
+  version: 0.1.14
+  resolution: "react-openlayers7@npm:0.1.14"
   dependencies:
     lodash: ^4.17.21
     ol: ^7.3.0
@@ -13837,7 +13837,7 @@ __metadata:
     "@emotion/styled": ^11.11.0
     react: ^18.2.0
     react-dom: ^18.2.0
-  checksum: 0ab2e53b099596ab0b2ffcb878b1b324d8194bd7d727092d10ccdfdaa160962c5e2609c179b148f0d77a4550af613b0a1ff4de5104bd88ab2906257d2e280c02
+  checksum: 572d74650d5880a6c34755c7c352e5ce6a5838c904c11af62eaa87d8674ffc22bfcb734ce02373f464faece47ddce2a9e37322532a64f5805d6a78b52c112521
   languageName: node
   linkType: hard
 
@@ -16046,11 +16046,11 @@ __metadata:
 
 "typescript@patch:typescript@^4.7.4#~builtin<compat/typescript>":
   version: 4.9.5
-  resolution: "typescript@patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=23ec76"
+  resolution: "typescript@patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=ad5954"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: ab417a2f398380c90a6cf5a5f74badd17866adf57f1165617d6a551f059c3ba0a3e4da0d147b3ac5681db9ac76a303c5876394b13b3de75fdd5b1eaa06181c9d
+  checksum: 8f6260acc86b56bfdda6004bc53f32ea548f543e8baef7071c8e34d29d292f3e375c8416556c8de10b24deef6933cd1c16a8233dc84a3dd43a13a13265d0faab
   languageName: node
   linkType: hard
 

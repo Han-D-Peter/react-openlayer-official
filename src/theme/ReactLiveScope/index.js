@@ -33,6 +33,7 @@ import {
   useSelectAnnotation,
   getProfileFromFeature,
   icon,
+  ControlGroup
 } from "react-openlayers7";
 // Add react-live imports you need here
 
@@ -87,6 +88,7 @@ const ReactLiveScope = {
   getProfileFromFeature,
   icon,
   TooltipMarker,
+  ControlGroup,
 };
 
 ReactLiveScope.icon.marker = "/img/marker-icon.png";
