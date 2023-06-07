@@ -1,0 +1,27 @@
+---
+sidebar_position: 2
+---
+
+# useMapRotation
+
+```jsx
+function CustomFeature() {
+  const [rotationDegree, setRotate, resetRotation] = useMapRatation();
+
+  return <></>;
+}
+
+<div>
+  <Map center={[126.841784, 35.191406]} width="100%" height="500px">
+    <CustomFeature />
+  </Map>
+</div>;
+```
+
+- `useMapRotation` 훅을 통해 현재 사용하는 지도의 회전양, 회전함수, 초기화 함수를 받아 사용할 수 있습니다.
+
+| value          | type                     | description                                                        |
+| -------------- | ------------------------ | ------------------------------------------------------------------ |
+| rotationDegree | number                   | 현재 지도의 회전각도를 확인할 수 있습니다.                         |
+| setRotate      | (degree: number) => void | `setRotate(90)` 와 같이 인자에 넣은 각도 만큰 지도를 회전시킵니다. |
+| resetRotation  | () => void               | 실행하면 지도의 회전 각도를 0으로 초기화시킵니다.                  |

@@ -84,13 +84,8 @@ const config = {
           src: "img/logo.webp",
         },
         items: [
-          {
-            type: "docSidebar",
-            sidebarId: "gettingStarted",
-            position: "left",
-            label: "Getting Started",
-          },
-          { to: "/blog", label: "Blog", position: "left" },
+          { to: "/docs/Getting%20started/intro", label: "Getting Started", position: "left" },
+          { to: "/docs/category/guide", label: "Guide", position: "left" },
           {
             href: "https://github.com/Han-D-Peter/react-openlayer",
             label: "GitHub",
