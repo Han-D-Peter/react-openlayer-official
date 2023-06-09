@@ -33,23 +33,11 @@ import {
   useSelectAnnotation,
   getProfileFromFeature,
   icon,
-  ControlGroup
+  ControlGroup,
+  ImageOveray
 } from "react-openlayers7";
 // Add react-live imports you need here
 
-function TooltipMarker() {
-  const [isHovering, setIsHovering] = React.useState(false);
-
-  const onHover = () => {
-    setIsHovering(true);
-  };
-
-  return (
-    <CustomMarker onHover={onHover} center={[126.840884, 35.190816]}>
-      {isHovering && <InnerText size={15}>Marker</InnerText>}
-    </CustomMarker>
-  );
-}
 
 const ReactLiveScope = {
   React,
@@ -87,9 +75,10 @@ const ReactLiveScope = {
   useSelectAnnotation,
   getProfileFromFeature,
   icon,
-  TooltipMarker,
   ControlGroup,
+  ImageOveray
 };
 
-ReactLiveScope.icon.marker = "/img/marker-icon.png";
+ReactLiveScope.icon.marker = "/img/marker-basic.png";
+ReactLiveScope.icon.selected = "/img/marker-selected.png";
 export default ReactLiveScope;
