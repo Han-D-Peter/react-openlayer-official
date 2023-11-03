@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Guide/Controls/Controls",
+  "id": "Guide/Controls/Controls",
+  "title": "Controls",
+  "description": "LayerGroup 을 사용하면 여러가지 어노테이션, 레이어들을 그루핑이 가능하고",
+  "source": "@site/docs/Guide/Controls/Controls.mdx",
+  "sourceDirName": "Guide/Controls",
+  "slug": "/Guide/Controls/",
+  "permalink": "/docs/Guide/Controls/",
+  "draft": false,
+  "editUrl": "https://github.com/Han-D-Peter/react-openlayer-official/tree/main/docs/docs/Guide/Controls/Controls.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "gettingStarted",
+  "previous": {
+    "title": "Controls",
+    "permalink": "/docs/category/controls"
+  },
+  "next": {
+    "title": "Text with Marker",
+    "permalink": "/docs/Guide/Text with Marker"
+  }
+}

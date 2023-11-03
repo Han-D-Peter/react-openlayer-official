@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Guide/markdown-features",
+  "id": "Guide/markdown-features",
+  "title": "Markdown Features",
+  "description": "Docusaurus supports Markdown and a few additional features.",
+  "source": "@site/docs/Guide/markdown-features.mdx",
+  "sourceDirName": "Guide",
+  "slug": "/Guide/markdown-features",
+  "permalink": "/docs/Guide/markdown-features",
+  "draft": false,
+  "editUrl": "https://github.com/Han-D-Peter/react-openlayer-official/tree/main/docs/docs/Guide/markdown-features.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "gettingStarted",
+  "previous": {
+    "title": "GeoJson Layer",
+    "permalink": "/docs/Guide/GeoJson Layer"
+  },
+  "next": {
+    "title": "Layer zIndex",
+    "permalink": "/docs/Guide/Layer zIndex"
+  }
+}

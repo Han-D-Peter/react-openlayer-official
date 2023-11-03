@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Guide/Controls/DrawingTools copy",
+  "id": "Guide/Controls/DrawingTools copy",
+  "title": "Drawing Tools",
+  "description": "How to use",
+  "source": "@site/docs/Guide/Controls/DrawingTools copy.mdx",
+  "sourceDirName": "Guide/Controls",
+  "slug": "/Guide/Controls/DrawingTools copy",
+  "permalink": "/docs/Guide/Controls/DrawingTools copy",
+  "draft": false,
+  "editUrl": "https://github.com/Han-D-Peter/react-openlayer-official/tree/main/docs/docs/Guide/Controls/DrawingTools copy.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "gettingStarted",
+  "previous": {
+    "title": "Drawing Tools",
+    "permalink": "/docs/Guide/Controls/DrawingTools"
+  },
+  "next": {
+    "title": "Tutorial - Extras",
+    "permalink": "/docs/category/tutorial---extras"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Getting started/Installation",
+  "id": "Getting started/Installation",
+  "title": "Installation",
+  "description": "React prerequisites",
+  "source": "@site/docs/Getting started/Installation.mdx",
+  "sourceDirName": "Getting started",
+  "slug": "/Getting started/Installation",
+  "permalink": "/docs/Getting started/Installation",
+  "draft": false,
+  "editUrl": "https://github.com/Han-D-Peter/react-openlayer-official/tree/main/docs/docs/Getting started/Installation.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "gettingStarted",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/docs/Getting started/intro"
+  },
+  "next": {
+    "title": "Setup",
+    "permalink": "/docs/Getting started/Setup"
+  }
+}

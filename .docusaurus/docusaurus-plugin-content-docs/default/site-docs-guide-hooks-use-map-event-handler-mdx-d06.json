@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Guide/Hooks/useMapEventHandler",
+  "id": "Guide/Hooks/useMapEventHandler",
+  "title": "useMapEventHandler",
+  "description": "- useMapEventHandler 을 사용하게 되면 openlayers 이벤트중 \"singleclick\" 이벤트가 추가됩니다.",
+  "source": "@site/docs/Guide/Hooks/useMapEventHandler.mdx",
+  "sourceDirName": "Guide/Hooks",
+  "slug": "/Guide/Hooks/useMapEventHandler",
+  "permalink": "/docs/Guide/Hooks/useMapEventHandler",
+  "draft": false,
+  "editUrl": "https://github.com/Han-D-Peter/react-openlayer-official/tree/main/docs/docs/Guide/Hooks/useMapEventHandler.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "gettingStarted",
+  "previous": {
+    "title": "useSelectAnnotation",
+    "permalink": "/docs/Guide/Hooks/useSelectAnnotation"
+  },
+  "next": {
+    "title": "Tutorial - Extras",
+    "permalink": "/docs/category/tutorial---extras"
+  }
+}

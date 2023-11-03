@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Guide/Controls/DrawingTools",
+  "id": "Guide/Controls/DrawingTools",
+  "title": "Drawing Tools",
+  "description": "How to use",
+  "source": "@site/docs/Guide/Controls/DrawingTools.mdx",
+  "sourceDirName": "Guide/Controls",
+  "slug": "/Guide/Controls/DrawingTools",
+  "permalink": "/docs/Guide/Controls/DrawingTools",
+  "draft": false,
+  "editUrl": "https://github.com/Han-D-Peter/react-openlayer-official/tree/main/docs/docs/Guide/Controls/DrawingTools.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "gettingStarted",
+  "previous": {
+    "title": "Full Screen",
+    "permalink": "/docs/Guide/Controls/FullScreen"
+  },
+  "next": {
+    "title": "Custom Tool",
+    "permalink": "/docs/Guide/Controls/CustomTool"
+  }
+}

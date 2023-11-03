@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Guide/Layer Group copy",
+  "id": "Guide/Layer Group copy",
+  "title": "Layer Group",
+  "description": "LayerGroup 을 사용하면 여러가지 어노테이션, 레이어들을 그루핑이 가능하고",
+  "source": "@site/docs/Guide/Layer Group copy.mdx",
+  "sourceDirName": "Guide",
+  "slug": "/Guide/Layer Group copy",
+  "permalink": "/docs/Guide/Layer Group copy",
+  "draft": false,
+  "editUrl": "https://github.com/Han-D-Peter/react-openlayer-official/tree/main/docs/docs/Guide/Layer Group copy.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "gettingStarted",
+  "previous": {
+    "title": "Layer Group",
+    "permalink": "/docs/Guide/Layer Group"
+  },
+  "next": {
+    "title": "Tutorial - Extras",
+    "permalink": "/docs/category/tutorial---extras"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Guide/Controls/CompassWheel",
+  "id": "Guide/Controls/CompassWheel",
+  "title": "CompassWheel",
+  "description": "- CompassWheel 을 통해 현재 지도의 방위각을 파악할 수 있습니다.",
+  "source": "@site/docs/Guide/Controls/CompassWheel.mdx",
+  "sourceDirName": "Guide/Controls",
+  "slug": "/Guide/Controls/CompassWheel",
+  "permalink": "/docs/Guide/Controls/CompassWheel",
+  "draft": false,
+  "editUrl": "https://github.com/Han-D-Peter/react-openlayer-official/tree/main/docs/docs/Guide/Controls/CompassWheel.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "gettingStarted",
+  "previous": {
+    "title": "Controls",
+    "permalink": "/docs/category/controls"
+  },
+  "next": {
+    "title": "Zoom Feature",
+    "permalink": "/docs/Guide/Controls/Zoom"
+  }
+}

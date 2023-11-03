@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Guide/deploy-your-site",
+  "id": "Guide/deploy-your-site",
+  "title": "Deploy your site",
+  "description": "Docusaurus is a static-site-generator (also called Jamstack).",
+  "source": "@site/docs/Guide/deploy-your-site.md",
+  "sourceDirName": "Guide",
+  "slug": "/Guide/deploy-your-site",
+  "permalink": "/docs/Guide/deploy-your-site",
+  "draft": false,
+  "editUrl": "https://github.com/Han-D-Peter/react-openlayer-official/tree/main/docs/docs/Guide/deploy-your-site.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "gettingStarted",
+  "previous": {
+    "title": "Layer zIndex",
+    "permalink": "/docs/Guide/Layer zIndex"
+  },
+  "next": {
+    "title": "Layer Group",
+    "permalink": "/docs/Guide/Layer Group"
+  }
+}

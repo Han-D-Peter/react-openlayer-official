@@ -1,0 +1,163 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "Getting started/intro",
+          "docs": [
+            {
+              "id": "Getting started/Installation",
+              "path": "/docs/Getting started/Installation",
+              "sidebar": "gettingStarted"
+            },
+            {
+              "id": "Getting started/intro",
+              "path": "/docs/Getting started/intro",
+              "sidebar": "gettingStarted"
+            },
+            {
+              "id": "Getting started/Setup",
+              "path": "/docs/Getting started/Setup",
+              "sidebar": "gettingStarted"
+            },
+            {
+              "id": "Guide/Controls/CompassWheel",
+              "path": "/docs/Guide/Controls/CompassWheel",
+              "sidebar": "gettingStarted"
+            },
+            {
+              "id": "Guide/Controls/CustomTool",
+              "path": "/docs/Guide/Controls/CustomTool",
+              "sidebar": "gettingStarted"
+            },
+            {
+              "id": "Guide/Controls/DrawingTools",
+              "path": "/docs/Guide/Controls/DrawingTools",
+              "sidebar": "gettingStarted"
+            },
+            {
+              "id": "Guide/Controls/FullScreen",
+              "path": "/docs/Guide/Controls/FullScreen",
+              "sidebar": "gettingStarted"
+            },
+            {
+              "id": "Guide/Controls/Zoom",
+              "path": "/docs/Guide/Controls/Zoom",
+              "sidebar": "gettingStarted"
+            },
+            {
+              "id": "Guide/GeoJson Layer",
+              "path": "/docs/Guide/GeoJson Layer",
+              "sidebar": "gettingStarted"
+            },
+            {
+              "id": "Guide/Hooks/useMap",
+              "path": "/docs/Guide/Hooks/useMap",
+              "sidebar": "gettingStarted"
+            },
+            {
+              "id": "Guide/Hooks/useMapEventHandler",
+              "path": "/docs/Guide/Hooks/useMapEventHandler",
+              "sidebar": "gettingStarted"
+            },
+            {
+              "id": "Guide/Hooks/useMapRotation",
+              "path": "/docs/Guide/Hooks/useMapRotation",
+              "sidebar": "gettingStarted"
+            },
+            {
+              "id": "Guide/Hooks/useSelectAnnotation",
+              "path": "/docs/Guide/Hooks/useSelectAnnotation",
+              "sidebar": "gettingStarted"
+            },
+            {
+              "id": "Guide/Image Overay",
+              "path": "/docs/Guide/Image Overay",
+              "sidebar": "gettingStarted"
+            },
+            {
+              "id": "Guide/Layer Group",
+              "path": "/docs/Guide/Layer Group",
+              "sidebar": "gettingStarted"
+            },
+            {
+              "id": "Guide/Layer zIndex",
+              "path": "/docs/Guide/Layer zIndex",
+              "sidebar": "gettingStarted"
+            },
+            {
+              "id": "Guide/Popup Text",
+              "path": "/docs/Guide/Popup Text",
+              "sidebar": "gettingStarted"
+            },
+            {
+              "id": "Guide/Text with Marker",
+              "path": "/docs/Guide/Text with Marker",
+              "sidebar": "gettingStarted"
+            },
+            {
+              "id": "Guide/Tile Layer",
+              "path": "/docs/Guide/Tile Layer",
+              "sidebar": "gettingStarted"
+            },
+            {
+              "id": "Guide/Vector Layers",
+              "path": "/docs/Guide/Vector Layers",
+              "sidebar": "gettingStarted"
+            },
+            {
+              "id": "tutorial-extras/manage-docs-versions",
+              "path": "/docs/tutorial-extras/manage-docs-versions",
+              "sidebar": "gettingStarted"
+            },
+            {
+              "id": "tutorial-extras/translate-your-site",
+              "path": "/docs/tutorial-extras/translate-your-site",
+              "sidebar": "gettingStarted"
+            },
+            {
+              "id": "/category/getting-started",
+              "path": "/docs/category/getting-started",
+              "sidebar": "gettingStarted"
+            },
+            {
+              "id": "/category/guide",
+              "path": "/docs/category/guide",
+              "sidebar": "gettingStarted"
+            },
+            {
+              "id": "/category/controls",
+              "path": "/docs/category/controls",
+              "sidebar": "gettingStarted"
+            },
+            {
+              "id": "/category/hooks",
+              "path": "/docs/category/hooks",
+              "sidebar": "gettingStarted"
+            },
+            {
+              "id": "/category/tutorial---extras",
+              "path": "/docs/category/tutorial---extras",
+              "sidebar": "gettingStarted"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "gettingStarted": {
+              "link": {
+                "path": "/docs/category/getting-started",
+                "label": "Getting started"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

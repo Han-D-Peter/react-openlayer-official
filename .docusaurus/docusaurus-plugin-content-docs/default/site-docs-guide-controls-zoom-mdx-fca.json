@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Guide/Controls/Zoom",
+  "id": "Guide/Controls/Zoom",
+  "title": "Zoom Feature",
+  "description": "- ZoomFeature 컴포넌트를 통해 우측 상단 지도의 줌 컨트롤 기능을 사용할 수 있습니다.",
+  "source": "@site/docs/Guide/Controls/Zoom.mdx",
+  "sourceDirName": "Guide/Controls",
+  "slug": "/Guide/Controls/Zoom",
+  "permalink": "/docs/Guide/Controls/Zoom",
+  "draft": false,
+  "editUrl": "https://github.com/Han-D-Peter/react-openlayer-official/tree/main/docs/docs/Guide/Controls/Zoom.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "gettingStarted",
+  "previous": {
+    "title": "CompassWheel",
+    "permalink": "/docs/Guide/Controls/CompassWheel"
+  },
+  "next": {
+    "title": "Full Screen",
+    "permalink": "/docs/Guide/Controls/FullScreen"
+  }
+}

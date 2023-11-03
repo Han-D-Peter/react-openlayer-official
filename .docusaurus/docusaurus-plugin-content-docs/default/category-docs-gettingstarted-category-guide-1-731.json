@@ -1,0 +1,16 @@
+{
+  "title": "Guide",
+  "description": "컴포넌트 사용법 가이드",
+  "slug": "/category/guide-1",
+  "permalink": "/docs/category/guide-1",
+  "navigation": {
+    "previous": {
+      "title": "Text with Marker",
+      "permalink": "/docs/Guide/Text with Marker"
+    },
+    "next": {
+      "title": "Controls",
+      "permalink": "/docs/Guide/Controls/"
+    }
+  }
+}

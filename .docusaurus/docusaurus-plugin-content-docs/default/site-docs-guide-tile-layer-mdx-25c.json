@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Guide/Tile Layer",
+  "id": "Guide/Tile Layer",
+  "title": "Tile Layer",
+  "description": "| property     | type   | description                                                    |",
+  "source": "@site/docs/Guide/Tile Layer.mdx",
+  "sourceDirName": "Guide",
+  "slug": "/Guide/Tile Layer",
+  "permalink": "/docs/Guide/Tile Layer",
+  "draft": false,
+  "editUrl": "https://github.com/Han-D-Peter/react-openlayer-official/tree/main/docs/docs/Guide/Tile Layer.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "gettingStarted",
+  "previous": {
+    "title": "Vector Layers",
+    "permalink": "/docs/Guide/Vector Layers"
+  },
+  "next": {
+    "title": "GeoJson Layer",
+    "permalink": "/docs/Guide/GeoJson Layer"
+  }
+}

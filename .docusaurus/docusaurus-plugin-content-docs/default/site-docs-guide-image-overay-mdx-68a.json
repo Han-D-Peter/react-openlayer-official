@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Guide/Image Overay",
+  "id": "Guide/Image Overay",
+  "title": "Image Overay",
+  "description": "| property | type                              | description                        |",
+  "source": "@site/docs/Guide/Image Overay.mdx",
+  "sourceDirName": "Guide",
+  "slug": "/Guide/Image Overay",
+  "permalink": "/docs/Guide/Image Overay",
+  "draft": false,
+  "editUrl": "https://github.com/Han-D-Peter/react-openlayer-official/tree/main/docs/docs/Guide/Image Overay.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8
+  },
+  "sidebar": "gettingStarted",
+  "previous": {
+    "title": "Layer Group",
+    "permalink": "/docs/Guide/Layer Group"
+  },
+  "next": {
+    "title": "Controls",
+    "permalink": "/docs/category/controls"
+  }
+}

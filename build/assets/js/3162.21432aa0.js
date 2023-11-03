@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkreact_openlayer_official=self.webpackChunkreact_openlayer_official||[]).push([[3162],{3162:(e,r,a)=>{a.r(r),a.d(r,{default:()=>l});var c=a(9395),f=a(4311);class l extends f.Z{decodeBlock(e){return(0,c.rr)(new Uint8Array(e)).buffer}}}}]);

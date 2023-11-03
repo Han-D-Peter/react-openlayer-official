@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Guide/Layer zIndex",
+  "id": "Guide/Layer zIndex",
+  "title": "Layer zIndex",
+  "description": "zIndex 설정으로 각 레이어의 우선순위를 결정할 수 있습니다.",
+  "source": "@site/docs/Guide/Layer zIndex.mdx",
+  "sourceDirName": "Guide",
+  "slug": "/Guide/Layer zIndex",
+  "permalink": "/docs/Guide/Layer zIndex",
+  "draft": false,
+  "editUrl": "https://github.com/Han-D-Peter/react-openlayer-official/tree/main/docs/docs/Guide/Layer zIndex.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "gettingStarted",
+  "previous": {
+    "title": "GeoJson Layer",
+    "permalink": "/docs/Guide/GeoJson Layer"
+  },
+  "next": {
+    "title": "Layer Group",
+    "permalink": "/docs/Guide/Layer Group"
+  }
+}

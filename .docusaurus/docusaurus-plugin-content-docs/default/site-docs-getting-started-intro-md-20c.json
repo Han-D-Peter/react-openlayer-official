@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Getting started/intro",
+  "id": "Getting started/intro",
+  "title": "Introduction",
+  "description": "openlayers7 을 react 컴포넌트 다루듯 사용해보세요.",
+  "source": "@site/docs/Getting started/intro.md",
+  "sourceDirName": "Getting started",
+  "slug": "/Getting started/intro",
+  "permalink": "/docs/Getting started/intro",
+  "draft": false,
+  "editUrl": "https://github.com/Han-D-Peter/react-openlayer-official/tree/main/docs/docs/Getting started/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "gettingStarted",
+  "previous": {
+    "title": "Getting started",
+    "permalink": "/docs/category/getting-started"
+  },
+  "next": {
+    "title": "Installation",
+    "permalink": "/docs/Getting started/Installation"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Guide/Layer zIndex copy",
+  "id": "Guide/Layer zIndex copy",
+  "title": "Layer zIndex",
+  "description": "zIndex 설정으로 각 레이어의 우선순위를 결정할 수 있습니다.",
+  "source": "@site/docs/Guide/Layer zIndex copy.mdx",
+  "sourceDirName": "Guide",
+  "slug": "/Guide/Layer zIndex copy",
+  "permalink": "/docs/Guide/Layer zIndex copy",
+  "draft": false,
+  "editUrl": "https://github.com/Han-D-Peter/react-openlayer-official/tree/main/docs/docs/Guide/Layer zIndex copy.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "gettingStarted",
+  "previous": {
+    "title": "Vector Layers",
+    "permalink": "/docs/Guide/Vector Layers"
+  },
+  "next": {
+    "title": "Layer zIndex",
+    "permalink": "/docs/Guide/Layer zIndex"
+  }
+}

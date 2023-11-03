@@ -1,0 +1,16 @@
+{
+  "title": "Controls",
+  "description": "제어 컨트롤 기능",
+  "slug": "/category/controls-1",
+  "permalink": "/docs/category/controls-1",
+  "navigation": {
+    "previous": {
+      "title": "Custom Tool",
+      "permalink": "/docs/Guide/Controls/CustomTool"
+    },
+    "next": {
+      "title": "CompassWheel",
+      "permalink": "/docs/Guide/Hooks/CompassWheel"
+    }
+  }
+}

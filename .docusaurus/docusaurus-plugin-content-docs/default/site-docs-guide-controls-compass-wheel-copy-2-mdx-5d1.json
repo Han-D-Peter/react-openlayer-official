@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Guide/Controls/CompassWheel copy 2",
+  "id": "Guide/Controls/CompassWheel copy 2",
+  "title": "CompassWheel",
+  "description": "LayerGroup 을 사용하면 여러가지 어노테이션, 레이어들을 그루핑이 가능하고",
+  "source": "@site/docs/Guide/Controls/CompassWheel copy 2.mdx",
+  "sourceDirName": "Guide/Controls",
+  "slug": "/Guide/Controls/CompassWheel copy 2",
+  "permalink": "/docs/Guide/Controls/CompassWheel copy 2",
+  "draft": false,
+  "editUrl": "https://github.com/Han-D-Peter/react-openlayer-official/tree/main/docs/docs/Guide/Controls/CompassWheel copy 2.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 99,
+  "frontMatter": {
+    "sidebar_position": 99
+  },
+  "sidebar": "gettingStarted",
+  "previous": {
+    "title": "Drawing Tools",
+    "permalink": "/docs/Guide/Controls/DrawingTools"
+  },
+  "next": {
+    "title": "Text with Marker",
+    "permalink": "/docs/Guide/Text with Marker"
+  }
+}

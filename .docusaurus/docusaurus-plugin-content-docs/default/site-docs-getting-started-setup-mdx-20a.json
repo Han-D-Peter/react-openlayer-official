@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Getting started/Setup",
+  "id": "Getting started/Setup",
+  "title": "Setup",
+  "description": "1. Installation page를 참고해 라이브러리를 설치해주세요.",
+  "source": "@site/docs/Getting started/Setup.mdx",
+  "sourceDirName": "Getting started",
+  "slug": "/Getting started/Setup",
+  "permalink": "/docs/Getting started/Setup",
+  "draft": false,
+  "editUrl": "https://github.com/Han-D-Peter/react-openlayer-official/tree/main/docs/docs/Getting started/Setup.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "gettingStarted",
+  "previous": {
+    "title": "Installation",
+    "permalink": "/docs/Getting started/Installation"
+  },
+  "next": {
+    "title": "Guide",
+    "permalink": "/docs/category/guide"
+  }
+}

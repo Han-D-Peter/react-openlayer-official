@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Guide/Controls/FullScreen",
+  "id": "Guide/Controls/FullScreen",
+  "title": "Full Screen",
+  "description": "- FullScreenFeature 컴포넌트를 통해 지도의 전체화면 여부를 결정할 수 있습니다.",
+  "source": "@site/docs/Guide/Controls/FullScreen.mdx",
+  "sourceDirName": "Guide/Controls",
+  "slug": "/Guide/Controls/FullScreen",
+  "permalink": "/docs/Guide/Controls/FullScreen",
+  "draft": false,
+  "editUrl": "https://github.com/Han-D-Peter/react-openlayer-official/tree/main/docs/docs/Guide/Controls/FullScreen.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "gettingStarted",
+  "previous": {
+    "title": "Zoom Feature",
+    "permalink": "/docs/Guide/Controls/Zoom"
+  },
+  "next": {
+    "title": "Drawing Tools",
+    "permalink": "/docs/Guide/Controls/DrawingTools"
+  }
+}
