@@ -1,0 +1,26 @@
+---
+sidebar_position: 1
+---
+
+# useFullScreen
+
+```jsx
+function CustomFeature() {
+  const { isFull, toggleFullScreen, makeFull, makeUnFull, ref } =
+    useFullScreen();
+
+  return (
+    <button ref={ref} css={closeButtonStyle} onClick={toggleFullScreen}>
+      {isFull ? "close" : "makeFull"}
+    </button>
+  );
+}
+
+<div>
+  <MapContainer center={[126.841784, 35.191406]} width="100%" height="500px">
+    <CustomFeature />
+  </MapContainer>
+</div>;
+```
+
+- `useFullScreen` 훅을 통해 현재 사용하는 지도 인스턴스 객체의 전체화면을 컨트롤 할 수 있습니다.

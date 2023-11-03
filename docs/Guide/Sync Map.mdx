@@ -1,0 +1,47 @@
+---
+sidebar_position: 2
+---
+
+# Sync Map
+
+## How to use
+
+```jsx live
+<SyncMapGroup rotate={90}>
+  <SyncMap>
+    <ControlSection>
+      <h1>hello</h1>
+    </ControlSection>
+  </SyncMap>
+  <SyncMap>
+    <ControlSection>
+      <h1>hello</h1>
+    </ControlSection>
+  </SyncMap>
+</SyncMapGroup>
+```
+
+`SyncMapGroup`을 사용해 sync할 지도 라이브러리를 묶어 컨트롤 가능합니다.
+
+## SyncMapGroup
+
+| property  | type      | description                             |
+| --------- | --------- | --------------------------------------- |
+| sync      | boolean   | 각 맵의 싱크 상태를 설정할 수 있습니다. |
+| center    | [127, 37] | `SyncMap`의 중앙값을 컨트롤 합니다.     |
+| zoomLevel | number    | `SyncMap`의 줌 상태를 컨트롤 합니다.    |
+| rotate    | 0~360     | `SyncMap`의 회전 상태를 컨트롤 합니다.  |
+
+## SyncMap
+
+| property    | type      | description                                          |
+| ----------- | --------- | ---------------------------------------------------- |
+| isDecoupled | boolean   | 설정을 통해 혼자만 sync 상태를 벗어날 수 있습니다.   |
+| center      | [127, 37] | `SyncMap`의 중앙값을 컨트롤 합니다.                  |
+| zoomLevel   | number    | `SyncMap`의 줌 상태를 컨트롤 합니다.                 |
+| rotate      | 0~360     | `SyncMap`의 회전 상태를 컨트롤 합니다.               |
+| height      | string    | `1000px` 과 같이 지도의 높이값을 조절할 수 있습니다. |
+| width       | string    | `1000px` 과 같이 지도의 너비값을 조절할 수 있습니다. |
+
+- `center`, `zoomLevel`, `rotate` 값들은 SyncMapGroup의 `sync` property보다 하위 요소입니다.
+- SyncMapGroup의 `sync` 가 true 라면 SyncMap의 `isDecoupled`가 true 가 아닌 이상 `center`, `zoomLevel`, `rotate` 값은 무시됩니다.
