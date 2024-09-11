@@ -1,0 +1,32 @@
+---
+sidebar_position: 9
+---
+
+# BoundaryCircle
+
+```jsx live
+<div>
+  <MapContainer center={[126.840884, 35.190816]} width="100%" height="500px">
+    <BoundaryCircle
+      center={[126.841284, 35.191516]}
+      circleRadius={200}
+      color="SKYBLUE"
+      onClick={() => console.log("boundary")}
+      onHover={() => console.log("boundary hover")}
+      onLeave={() => console.log("boundary leave")}
+    >
+      Sample
+    </BoundaryCircle>
+  </MapContainer>
+</div>
+```
+
+| property     | type            | description               |
+| ------------ | --------------- | ------------------------- |
+| circleRadius | number          | 반지름입니다. (m)         |
+| children     | string          | 서클 내부 텍스트          |
+| center       | [number,number] | 경위도 좌표               |
+| hasStroke    | boolean         | 외곽선을 굵게 가능합니다. |
+| onClick      | () => void      |                           |
+| onHover      | () => void      |                           |
+| onLeave      | () => void      |                           |
